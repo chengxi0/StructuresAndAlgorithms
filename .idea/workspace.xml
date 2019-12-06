@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86c8c070-0fe6-490a-9c94-8cd0ec5e10d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chengxi/queue/Queuearray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chengxi/queue/Queuearray2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chengxi/queue/Queue.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengxi/queue/Linkedqueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StructuresAndAlgorithms/chengxi/queue/AQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructuresAndAlgorithms/chengxi/queue/AQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StructuresAndAlgorithms/chengxi/queue/Queuearray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StructuresAndAlgorithms/chengxi/queue/Queuearray.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,20 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.Queuearray2">
+  <component name="RunManager" selected="Application.Linkedqueue">
+    <configuration name="Linkedqueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chengxi.queue.Linkedqueue" />
+      <module name="StructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chengxi.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chengxi.queue.Queue" />
       <module name="StructuresAndAlgorithms" />
@@ -87,9 +100,11 @@
       <item itemvalue="Application.Queuearray" />
       <item itemvalue="Application.Queue" />
       <item itemvalue="Application.Queuearray2" />
+      <item itemvalue="Application.Linkedqueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Linkedqueue" />
         <item itemvalue="Application.Queuearray2" />
         <item itemvalue="Application.Queuearray" />
         <item itemvalue="Application.Queue" />
@@ -124,7 +139,9 @@
       <workItem from="1575419708216" duration="61000" />
       <workItem from="1575419790832" duration="5714000" />
       <workItem from="1575467402043" duration="819000" />
-      <workItem from="1575468405451" duration="13668000" />
+      <workItem from="1575468405451" duration="14432000" />
+      <workItem from="1575556441841" duration="3969000" />
+      <workItem from="1575640955917" duration="1991000" />
     </task>
     <task id="LOCAL-00001" summary="version1">
       <created>1575345292304</created>
@@ -147,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575345425454</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge branch 'master' of https://github.com/chengxi0/StructuresAndAlgorithms&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.">
+      <created>1575535871288</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575535871288</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge branch 'master' of https://github.com/chengxi0/StructuresAndAlgorithms&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.">
+      <created>1575535940645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575535940645</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,54 +203,66 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/chengxi0/StructuresAndAlgorithms&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="77" y="0" key="CommitChangelistDialog2" timestamp="1575535904517">
+    <state x="530" y="16" key="#com.intellij.ide.util.MemberChooser" timestamp="1575556750957">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="77" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575535904517" />
-    <state width="1483" height="430" key="GridCell.Tab.0.bottom" timestamp="1575535695660">
+    <state x="530" y="16" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1575556750957" />
+    <state x="77" y="0" key="CommitChangelistDialog2" timestamp="1575535938855">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="430" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575535695660" />
-    <state width="1483" height="430" key="GridCell.Tab.0.center" timestamp="1575535695660">
+    <state x="77" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575535938855" />
+    <state x="499" y="106" key="FileChooserDialogImpl" timestamp="1575542456289">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="430" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575535695660" />
-    <state width="1483" height="430" key="GridCell.Tab.0.left" timestamp="1575535695660">
+    <state x="499" y="106" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575542456289" />
+    <state width="1483" height="399" key="GridCell.Tab.0.bottom" timestamp="1575642229655">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="430" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575535695660" />
-    <state width="1483" height="430" key="GridCell.Tab.0.right" timestamp="1575535695660">
+    <state width="1483" height="399" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575642229655" />
+    <state width="1483" height="399" key="GridCell.Tab.0.center" timestamp="1575642229655">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="430" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575535695660" />
-    <state width="1483" height="385" key="GridCell.Tab.1.bottom" timestamp="1575534095353">
+    <state width="1483" height="399" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575642229655" />
+    <state width="1483" height="399" key="GridCell.Tab.0.left" timestamp="1575642229655">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="385" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575534095353" />
-    <state width="1483" height="385" key="GridCell.Tab.1.center" timestamp="1575534095353">
+    <state width="1483" height="399" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575642229655" />
+    <state width="1483" height="399" key="GridCell.Tab.0.right" timestamp="1575642229655">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="385" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1575534095353" />
-    <state width="1483" height="385" key="GridCell.Tab.1.left" timestamp="1575534095353">
+    <state width="1483" height="399" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575642229655" />
+    <state width="1483" height="385" key="GridCell.Tab.1.bottom" timestamp="1575542457469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="385" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1575534095353" />
-    <state width="1483" height="385" key="GridCell.Tab.1.right" timestamp="1575534095353">
+    <state width="1483" height="385" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575542457469" />
+    <state width="1483" height="385" key="GridCell.Tab.1.center" timestamp="1575542457469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1483" height="385" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575534095353" />
+    <state width="1483" height="385" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1575542457469" />
+    <state width="1483" height="385" key="GridCell.Tab.1.left" timestamp="1575542457469">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="385" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1575542457469" />
+    <state width="1483" height="385" key="GridCell.Tab.1.right" timestamp="1575542457469">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="385" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575542457469" />
     <state x="152" y="0" width="1384" height="824" key="SettingsEditor" timestamp="1575470235327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="152" y="0" width="1384" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575470235327" />
-    <state x="391" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1575468407395">
+    <state x="261" y="76" key="Vcs.Push.Dialog.v2" timestamp="1575535976419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="391" y="189" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1575468407395" />
-    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1575533515115">
+    <state x="261" y="76" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575535976419" />
+    <state x="391" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1575640958943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575533515115" />
+    <state x="391" y="189" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1575640958943" />
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1575642304658">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575642304658" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
