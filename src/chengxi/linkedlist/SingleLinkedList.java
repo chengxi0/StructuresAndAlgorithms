@@ -35,11 +35,11 @@ public class SingleLinkedList {
         list.addByOrder(n4);
         list.addByOrder(n5);
 
-//        list2.addByOrder(n6);
-//        list2.addByOrder(n7);
-//        list2.addByOrder(n8);
-//        list2.addByOrder(n9);
-//        list2.addByOrder(n0);
+        list2.addByOrder(n6);
+        list2.addByOrder(n7);
+        list2.addByOrder(n8);
+        list2.addByOrder(n9);
+        list2.addByOrder(n0);
 
         //list.deleteNode(2);
         //list.deleteNode(1);
@@ -50,7 +50,7 @@ public class SingleLinkedList {
 //        System.out.println(list.LastIndexPoint(2));
 //        System.out.println("------------------------");
 //
-        list.show();
+//        list2.show();
 //        System.out.println("--------------");
 //        list.reverseListIterate();
 //        list.show();
@@ -69,6 +69,8 @@ public class SingleLinkedList {
         //list.combineList(list2);
 //        list.combineList2(list, list2);
 //        list.show();
+        list.combineList(list ,list2);
+        list.show();
 
 
 
@@ -241,24 +243,45 @@ class SingleList{
         }
     }
 
+//    //链表合并（递归实现）
+//    private SingleNode combineNode(SingleNode head1, SingleNode head2) {
+//        if (head1 == null) {
+//            return head2 ;
+//        }
+//        if (head2 == null) {
+//            return head1 ;
+//        }
+//        if (head1.getNumber() > head2.getNumber()) {
+//            head1.setNext(combineNode(head1.getNext(),head2));
+//            return head1 ;
+//        }else{
+//            head2.setNext(combineNode(head2.getNext(),head1));
+//            return head2 ;
+//        }
+//    }
+//
+//    public void combineList2(SingleList list1, SingleList list2) throws Exception {
+//        head.setNext(combineNode(list1.getHead(), list2.getHead()));
+//    }
+
     //链表合并（递归实现）
-    private SingleNode combineNode(SingleNode head1, SingleNode head2) {
-        if (head1 == null) {
-            return head2 ;
+    private SingleNode combineNode(SingleNode nhead1, SingleNode nhead2) {
+        if (nhead1 == null) {
+            return nhead2 ;
         }
-        if (head2 == null) {
-            return head1 ;
+        if (nhead2 == null) {
+            return nhead1 ;
         }
-        if (head1.getNumber() > head2.getNumber()) {
-            head1.setNext(combineNode(head1.getNext(),head2));
-            return head1 ;
+        if(nhead1.getNumber() > nhead2.getNumber()){
+            nhead1.setNext(combineNode(nhead1.getNext(),nhead2));
+            return nhead1 ;
         }else{
-            head2.setNext(combineNode(head2.getNext(),head1));
-            return head2 ;
+            nhead2.setNext(combineNode(nhead2.getNext(), nhead1));
+            return nhead2 ;
         }
     }
 
-    public void combineList2(SingleList list1, SingleList list2) throws Exception {
+    public void combineList(SingleList list1, SingleList list2) throws Exception {
         head.setNext(combineNode(list1.getHead(), list2.getHead()));
     }
 
