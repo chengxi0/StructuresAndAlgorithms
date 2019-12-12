@@ -157,6 +157,7 @@ class CircleNode{
     private int number ;
     private CircleNode next ;
 
+
     //构造器
     public CircleNode(String name, int number) {
         this.name = name ;
@@ -197,3 +198,4 @@ class CircleNode{
                 '}';
     }
 }
+
