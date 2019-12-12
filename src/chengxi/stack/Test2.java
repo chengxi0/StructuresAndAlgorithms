@@ -4,11 +4,26 @@ import java.util.Scanner;
 
 /**
  * @author 承夕
- * @date 2019/12/11 0011 - 23:15
+ * @date 2019/12/12 0012 - 18:32
  */
-public class Test {
+public class Test2 {
     public static void main(String[] args) throws Exception {
-        MyArrayStack<String> stack = new MyArrayStack<>(3);
+//        MyLinkedListStack<String> stack = new MyLinkedListStack<>(4);
+//        Node<String> n1 = new Node<>("shibushi");
+//        Node<String> n2 = new Node<>("shibi");
+//        Node<String> n3 = new Node<>("sh");
+////        Node<Integer> n4 = new Node<>(32);
+//
+//        stack.push(n1);
+//        stack.push(n2);
+//        stack.push(n3);
+////        stack.push(n4);
+//        System.out.println(stack.pop());
+//        System.out.println(stack.pop());
+//        System.out.println("-------------------");
+//        stack.show();
+
+        MyLinkedListStack<String> stack = new MyLinkedListStack<>(3);
         Scanner sc = new Scanner(System.in);
         boolean loop = true;
         char key = ' ';
@@ -24,7 +39,8 @@ public class Test {
                 case 'p' :
                     System.out.println("请输入添加的元素");
                     String str =sc.nextLine();
-                    stack.push(str);
+                    Node<String> n = new Node<>(str);
+                    stack.push(n);
                     break ;
                 case 'c' :
                     System.out.println(stack.pop());
@@ -41,12 +57,11 @@ public class Test {
                     break ;
                 case 'e' :
                     loop =false ;
-                    sc.close(); 
+                    sc.close();
                     break ;
                 default :
                     break ;
             }
         }
-
     }
 }

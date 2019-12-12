@@ -41,7 +41,6 @@ public class SingleNode {
             this.next = next;
         }
 
-
         //记得重写ToString方法
         @Override
         public String toString() {

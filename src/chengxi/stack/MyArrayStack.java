@@ -2,6 +2,7 @@ package chengxi.stack;
 
 /**
  * @author 承夕
+ * 数组实现栈结构的基本操作
  * @date 2019/12/11 0011 - 22:41
  */
 public class MyArrayStack<E> {
@@ -59,6 +60,11 @@ public class MyArrayStack<E> {
             }
         }
         return -1 ;
+    }
+
+    //返回元素个数
+    public int getNumber() {
+        return front + 1 ;
     }
 
     //遍历栈
