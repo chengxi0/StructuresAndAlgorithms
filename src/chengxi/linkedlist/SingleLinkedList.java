@@ -71,11 +71,10 @@ public class SingleLinkedList {
 //        list.show();
         list.combineList(list ,list2);
         list.show();
-
-
-
     }
 }
+
+
 
 
 
