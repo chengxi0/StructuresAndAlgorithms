@@ -76,5 +76,6 @@ public class MyArrayStack<E> {
             System.out.println(arr[i]);
         }
     }
-
 }
+
+
