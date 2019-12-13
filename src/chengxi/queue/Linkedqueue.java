@@ -58,11 +58,9 @@ public class Linkedqueue {
                     break ;
             }
         }
-
-
     }
 
-    
+
 }
 
 //主要就是对链表的操作熟不熟悉而已
@@ -194,4 +192,7 @@ class Node {
                 '}';
     }
 }
+
+
+
 
