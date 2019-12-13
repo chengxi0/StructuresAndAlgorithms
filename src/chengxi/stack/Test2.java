@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * @author 承夕
+ * 测试用链表实现的栈结构
  * @date 2019/12/12 0012 - 18:32
  */
 public class Test2 {
