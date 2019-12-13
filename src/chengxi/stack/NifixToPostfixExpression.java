@@ -137,10 +137,6 @@ public class NifixToPostfixExpression {
         }
         System.out.println(stackInt.peek());
 
-
-
-
-
     }
     //判断数字
     public  static boolean isNumber(String ch) {
@@ -162,5 +158,5 @@ public class NifixToPostfixExpression {
         }
         return false ;
     }
-    
+
 }
