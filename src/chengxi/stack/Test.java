@@ -3,6 +3,7 @@ package chengxi.stack;
 import java.util.Scanner;
 
 /**
+ * 测试数组实现的栈结构
  * @author 承夕
  * @date 2019/12/11 0011 - 23:15
  */
